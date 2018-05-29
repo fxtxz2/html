@@ -3,11 +3,22 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>fxtxz2</title>
     </head>
 
     <body>
-        我的第一个github
+        本金:<br>
+        <input type="text" id="input"><br>
+        年化率:<br>
+        <input type="text" id="rate">%<br>
+        天数:<br>
+        <input type="text" id="days"><br>
+        获得:<br>
+        <input type="text" id="return" readonly><br>
+        <button type="button" onclick="getMoney()">计算</button>
+        <script type="text/javascript" src="./js/math.min.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
     </body>
 
 </html>
